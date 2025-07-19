@@ -1,6 +1,9 @@
 {
+  "item.air-mod.tinder_wire": "火绒丝",
+  "item.air-mod.withered_bone": "凋零骨头",
+  "item.air-mod.withered_bone_powder": "凋零骨粉",
   "item.air-mod.low_carbon_ingot": "低碳钢锭",
-  "item.air-mod.low_carbon_ingot_block": "低碳钢块",
+  "block.air-mod.low_carbon_ingot_block": "低碳钢块",
   "item.air-mod.high_carbon_ingot": "高碳钢锭",
-  "item.air-mod.high_carbon_ingot_block": "高碳钢块"
+  "block.air-mod.high_carbon_ingot_block": "高碳钢块"
 }

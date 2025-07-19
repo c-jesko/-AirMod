@@ -1,5 +1,6 @@
 package com.senna.air;
 
+import com.senna.air.block.ModBlocks;
 import com.senna.air.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,7 +22,7 @@ public class AirMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
-		//初始化
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

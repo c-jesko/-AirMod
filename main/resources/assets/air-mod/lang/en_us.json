@@ -1,6 +1,9 @@
 {
+  "item.air-mod.tinder_wire": "Tinder Wire",
+  "item.air-mod.withered_bone": "Withered Bone",
+  "item.air-mod.withered_bone_powder": "Withered Bone Powder",
+  "block.air-mod.high_carbon_ingot_block": "high carbon ingot block",
   "item.air-mod.low_carbon_ingot": "Low Carbon Ingot",
-  "item.air-mod.low_carbon_ingot_block": "Low Carbon Ingot Block",
-  "item.air-mod.high_carbon_ingot": "High Carbon Ingot",
-  "item.air-mod.high_carbon_ingot_block": "High Carbon Ingot Block"
+  "block.air-mod.low_carbon_ingot_block": "Low Carbon Ingot Block",
+  "item.air-mod.high_carbon_ingot": "High Carbon Ingot"
 }

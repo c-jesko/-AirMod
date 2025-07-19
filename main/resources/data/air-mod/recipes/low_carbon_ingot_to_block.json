@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item":"air-mod:low_carbon_ingot"
+    }
+  },
+  "result": {
+    "item": "air-mod:low_carbon_ingot_block"
+  }
+}

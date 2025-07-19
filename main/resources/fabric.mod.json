@@ -26,11 +26,7 @@
 		]
 	},
 	"mixins": [
-		"air-mod.mixins.json",
-		{
-			"config": "air-mod.client.mixins.json",
-			"environment": "client"
-		}
+		"air-mod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
