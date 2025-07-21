@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "air-mod:item/tinder_wire"
+    "layer0": "air-mod:item/flamed_string"
   }
 }
