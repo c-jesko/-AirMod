@@ -16,13 +16,13 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block HIGH_STEEL_INGOT_BLOCK = registerBlocks("high_steel_ingot_block",new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block MILE_STEEL_INGOT_BLOCK = registerBlocks("mile_steel_ingot_block",new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block HIGH_CARBON_STEEL_BLOCK = registerBlocks("high_carbon_steel_block",new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block MILE_CARBON_STEEL_BLOCK = registerBlocks("mile_carbon_steel_block",new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
     private static void addBlocksToIG(FabricItemGroupEntries fabricItemGroupEntries) {   //
-        fabricItemGroupEntries.add(HIGH_STEEL_INGOT_BLOCK);
-        fabricItemGroupEntries.add(MILE_STEEL_INGOT_BLOCK);
+        fabricItemGroupEntries.add(HIGH_CARBON_STEEL_BLOCK);
+        fabricItemGroupEntries.add(MILE_CARBON_STEEL_BLOCK);
     }
 
 
