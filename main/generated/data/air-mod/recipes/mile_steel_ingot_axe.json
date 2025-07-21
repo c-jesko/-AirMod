@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "air-mod:mile_steel_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "##",
+    "#A",
+    " A"
+  ],
+  "result": {
+    "item": "air-mod:mile_steel_ingot_axe"
+  },
+  "show_notification": true
+}

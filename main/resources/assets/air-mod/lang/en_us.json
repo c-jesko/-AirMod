@@ -2,8 +2,22 @@
   "item.air-mod.tinder_wire": "Tinder Wire",
   "item.air-mod.withered_bone": "Withered Bone",
   "item.air-mod.withered_bone_powder": "Withered Bone Powder",
-  "block.air-mod.high_carbon_ingot_block": "high carbon ingot block",
-  "item.air-mod.low_carbon_ingot": "Low Carbon Ingot",
-  "block.air-mod.low_carbon_ingot_block": "Low Carbon Ingot Block",
-  "item.air-mod.high_carbon_ingot": "High Carbon Ingot"
+  "block.air-mod.high_steel_ingot_block": "mild steel ingot block",
+  "item.air-mod.mile_steel_ingot": "mild steel ingot",
+
+  "item.air-mod.fire_bow": "fire bow",
+  "item.air-mod.mile_steel_ingot_pickaxe": "mild steel ingot pickaxe",
+  "item.air-mod.high_steel_ingot_pickaxe": "high steel ingot pickaxe",
+  "item.air-mod.mile_steel_ingot_shove": "mild steel ingot shove",
+  "item.air-mod.high_steel_ingot_shove": "high steel ingot shove",
+  "item.air-mod.mile_steel_ingot_hoe": "mild steel ingot hoe",
+  "item.air-mod.high_steel_ingot_hoe": "high steel ingot hoe",
+  "item.air-mod.mile_steel_ingot_sword": "mild steel ingot sword",
+  "item.air-mod.high_steel_ingot_sword": "high steel ingot sword",
+  "item.air-mod.mile_steel_ingot_axe": "mild steel ingot axe",
+  "item.air-mod.high_steel_ingot_axe": "high steel ingot axe",
+
+
+  "block.air-mod.mile_steel_ingot_block": "mild steel ingot Block",
+  "item.air-mod.high_steel_ingot": "high steel ingot"
 }

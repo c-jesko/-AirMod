@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "air-mod:item/high_steel_ingot_shove"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_rod"
+    },
+    "@": {
+      "item": "air-mod:tinder_wire"
+    }
+  },
+  "pattern": [
+    " #@",
+    "# @",
+    " #@"
+  ],
+  "result": {
+    "item": "air-mod:fire_bow"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "air-mod:mile_steel_ingot_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "air-mod:mile_steel_ingot"
+  }
+}

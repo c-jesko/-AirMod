@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "air:fire_bow"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tinder_wire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "air-mod:tinder_wire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tinder_wire",
+      "has_blaze_rod",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "air:fire_bow"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -2,14 +2,13 @@ package com.senna.air.item;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
 
-    HIGH_CARBON_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.TINDER_WIRE)),
-    LOW_CARBON_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.TINDER_WIRE));
+    HIGH_STEEL_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.TINDER_WIRE)),
+    MILE_STEEL_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.TINDER_WIRE));
 
 
 
