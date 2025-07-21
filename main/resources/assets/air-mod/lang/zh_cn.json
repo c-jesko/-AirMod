@@ -1,24 +1,24 @@
 {
-  "item.air-mod.tinder_wire": "火绒丝",
+  "item.air-mod.flamed string": "火绒丝",
   "item.air-mod.withered_bone": "凋零骨头",
   "item.air-mod.withered_bone_powder": "凋零骨粉",
-  "item.air-mod.mile_steel_ingot": "低碳钢锭",
-  "item.air-mod.high_steel_ingot": "高碳钢锭",
+  "item.air-mod.mile_carbon_steel_ingot": "低碳钢锭",
+  "item.air-mod.high_carbon_steel_ingot": "高碳钢锭",
 
 
   "item.air-mod.fire_bow": "烈焰弓",
-  "item.air-mod.mile_steel_ingot_pickaxe": "低碳钢镐",
-  "item.air-mod.high_steel_ingot_pickaxe": "高碳钢镐",
-  "item.air-mod.mile_steel_ingot_shove": "低碳钢锹",
-  "item.air-mod.high_steel_ingot_shove": "高碳钢锹",
-  "item.air-mod.mile_steel_ingot_hoe": "低碳钢锄",
-  "item.air-mod.high_steel_ingot_hoe": "高碳钢锄",
-  "item.air-mod.mile_steel_ingot_sword": "低碳钢剑",
-  "item.air-mod.high_steel_ingot_sword": "高碳钢剑",
-  "item.air-mod.mile_steel_ingot_axe": "低碳钢斧",
-  "item.air-mod.high_steel_ingot_axe": "高碳钢斧",
+  "item.air-mod.mile_carbon_steel_pickaxe": "低碳钢镐",
+  "item.air-mod.high_carbon_steel_pickaxe": "高碳钢镐",
+  "item.air-mod.mile_carbon_steel_shove": "低碳钢锹",
+  "item.air-mod.high_carbon_steel_shove": "高碳钢锹",
+  "item.air-mod.mile_carbon_steel_hoe": "低碳钢锄",
+  "item.air-mod.high_carbon_steel_hoe": "高碳钢锄",
+  "item.air-mod.mile_carbon_steel_sword": "低碳钢剑",
+  "item.air-mod.high_carbon_steel_sword": "高碳钢剑",
+  "item.air-mod.mile_carbon_steel_axe": "低碳钢斧",
+  "item.air-mod.high_carbon_steel_axe": "高碳钢斧",
 
 
-  "block.air-mod.mile_steel_ingot_block": "低碳钢块",
-  "block.air-mod.high_steel_ingot_block": "高碳钢块"
+  "block.air-mod.mile_carbon_steel_block": "低碳钢块",
+  "block.air-mod.high_carbon_steel_block": "高碳钢块"
 }
