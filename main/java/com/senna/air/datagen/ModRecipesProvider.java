@@ -17,7 +17,7 @@ import java.util.function.Consumer;
 
 public class ModRecipesProvider extends FabricRecipeProvider {
 
-    private static final List<ItemConvertible> AIR_MOD_LIST = List.of(ModItems.HIGH_STEEL_INGOT,ModItems.MILE_STEEL_INGOT);
+    private static final List<ItemConvertible> AIR_MOD_LIST = List.of(ModItems.HIGH_CARBON_STEEL_INGOT,ModItems.MILE_CARBON_STEEL_INGOT);
 
     public ModRecipesProvider(FabricDataOutput output) {
         super(output);
@@ -25,106 +25,106 @@ public class ModRecipesProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.HIGH_STEEL_INGOT,RecipeCategory.BUILDING_BLOCKS, ModBlocks.HIGH_STEEL_INGOT_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.MILE_STEEL_INGOT,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MILE_STEEL_INGOT_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.HIGH_CARBON_STEEL_INGOT,RecipeCategory.BUILDING_BLOCKS, ModBlocks.HIGH_CARBON_STEEL_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.MILE_CARBON_STEEL_INGOT,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MILE_CARBON_STEEL_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_STEEL_INGOT_SWORD, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_CARBON_STEEL_SWORD, 1)
                 .pattern("#")
                 .pattern("#")
                 .pattern("A")
-                .input('#', Ingredient.ofItems(ModItems.HIGH_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.HIGH_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_high_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "high_steel_ingot_sword"));
+                .criterion("has_high_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "high_carbon_steel_sword"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_STEEL_INGOT_SWORD, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_CARBON_STEEL_SWORD, 1)
                 .pattern("#")
                 .pattern("#")
                 .pattern("A")
-                .input('#', Ingredient.ofItems(ModItems.MILE_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.MILE_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_mile_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "mile_steel_ingot_sword"));
+                .criterion("has_mile_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "mile_scarbon_steel_sword"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_STEEL_INGOT_AXE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_CARBON_STEEL_AXE, 1)
                 .pattern("##")
                 .pattern("#A")
                 .pattern(" A")
-                .input('#', Ingredient.ofItems(ModItems.HIGH_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.HIGH_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_high_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "high_steel_ingot_axe"));
+                .criterion("has_high_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "high_carbon_steel_axe"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_STEEL_INGOT_HOE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_CARBON_STEEL_HOE, 1)
                 .pattern("##")
                 .pattern(" A")
                 .pattern(" A")
-                .input('#', Ingredient.ofItems(ModItems.HIGH_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.HIGH_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_high_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "high_steel_ingot_hoe"));
+                .criterion("has_high_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "high_carbon_steel_hoe"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_STEEL_INGOT_PICKAXE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_CARBON_STEEL_PICKAXE, 1)
                 .pattern("###")
                 .pattern(" A ")
                 .pattern(" A ")
-                .input('#', Ingredient.ofItems(ModItems.HIGH_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.HIGH_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_high_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "high_steel_ingot_pickaxe"));
+                .criterion("has_high_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "high_carbon_steel_pickaxe"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_STEEL_INGOT_SHOVE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HIGH_CARBON_STEEL_SHOVE, 1)
                 .pattern("#")
                 .pattern("A")
                 .pattern("A")
-                .input('#', Ingredient.ofItems(ModItems.HIGH_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.HIGH_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_high_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "high_steel_ingot_shove"));
+                .criterion("has_high_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.HIGH_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "high_carbon_steel_shove"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_STEEL_INGOT_AXE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_CARBON_STEEL_AXE, 1)
                 .pattern("##")
                 .pattern("#A")
                 .pattern(" A")
-                .input('#', Ingredient.ofItems(ModItems.MILE_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.MILE_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_mile_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "mile_steel_ingot_axe"));
+                .criterion("has_mile_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "mile_carbon_steel_axe"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_STEEL_INGOT_HOE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_STEEL_HOE, 1)
                 .pattern("##")
                 .pattern(" A")
                 .pattern(" A")
-                .input('#', Ingredient.ofItems(ModItems.MILE_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.MILE_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_mile_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "mile_steel_ingot_hoe"));
+                .criterion("has_mile_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "mile_carbon_steel_hoe"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_STEEL_INGOT_PICKAXE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_CARBON_STEEL_PICKAXE, 1)
                 .pattern("###")
                 .pattern(" A ")
                 .pattern(" A ")
-                .input('#', Ingredient.ofItems(ModItems.MILE_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.MILE_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_mile_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "mile_steel_ingot_pickaxe"));
+                .criterion("has_mile_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "mile_carbon_steel_pickaxe"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_STEEL_INGOT_SHOVE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MILE_CARBON_STEEL_SHOVE, 1)
                 .pattern("#")
                 .pattern("A")
                 .pattern("A")
-                .input('#', Ingredient.ofItems(ModItems.MILE_STEEL_INGOT))
+                .input('#', Ingredient.ofItems(ModItems.MILE_CARBON_STEEL_INGOT))
                 .input('A', Ingredient.ofItems(Items.STICK))
-                .criterion("has_mile_steel_ingot_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_STEEL_INGOT))
-                .offerTo(exporter, new Identifier("air-mod", "mile_steel_ingot_shove"));
+                .criterion("has_mile_carbon_steel_ingot", FabricRecipeProvider.conditionsFromItem(ModItems.MILE_CARBON_STEEL_INGOT))
+                .offerTo(exporter, new Identifier("air-mod", "mile_carbon_steel_shove"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FIRE_BOW, 1)
                 .pattern(" #@")
                 .pattern("# @")
                 .pattern(" #@")
                 .input('#', Items.BLAZE_ROD)
-                .input('@', ModItems.TINDER_WIRE)
-                .criterion("has_tinder_wire", FabricRecipeProvider.conditionsFromItem(ModItems.TINDER_WIRE))
+                .input('@', ModItems.FLAMED_STRING)
+                .criterion("has_tinder_wire", FabricRecipeProvider.conditionsFromItem(ModItems.FLAMED_STRING))
                 .criterion("has_blaze_rod", FabricRecipeProvider.conditionsFromItem(Items.BLAZE_ROD))
                 .offerTo(exporter, new Identifier("air", "fire_bow"));
     }
