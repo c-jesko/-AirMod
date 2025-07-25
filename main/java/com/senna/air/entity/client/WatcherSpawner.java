@@ -58,8 +58,6 @@ public class WatcherSpawner {
         // 获取地表生成位置（考虑地形高度）
         spawnPos = world.getTopPosition(Heightmap.Type.MOTION_BLOCKING, spawnPos);
 
-        // 检查位置是否适合生成（非流体且非障碍物）
-        // 修复的生成条件检查 - 添加实体类型作为第五个参数
         if (SpawnHelper.isClearForSpawn(
                 world,
                 spawnPos,

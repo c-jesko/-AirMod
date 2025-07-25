@@ -1,7 +1,7 @@
 package com.senna.air;
 
 import com.senna.air.block.ModBlocks;
-import com.senna.air.detecter.NetherAdvancementHandler;
+import com.senna.air.detecter.DimensionChecker;
 import com.senna.air.entity.ModEntities;
 import com.senna.air.entity.ModEvents;
 import com.senna.air.entity.custom.StrangerEntity;
@@ -9,6 +9,7 @@ import com.senna.air.entity.custom.VisitorEntity;
 import com.senna.air.entity.custom.WatcherEntity;
 import com.senna.air.item.ModItems;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -43,9 +44,10 @@ public class AirMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		FabricDefaultAttributeRegistry.register(ModEntities.WATCHER,WatcherEntity.createWatcherAttributes());
 		ModEvents.register();
-		NetherAdvancementHandler.register();
 		FabricDefaultAttributeRegistry.register(ModEntities.VISITOR, VisitorEntity.createVisitorAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.STRANGER, StrangerEntity.createStrangerAttributes());
+		ServerTickEvents.END_SERVER_TICK.register(new DimensionChecker());
+
 
 	}
 
