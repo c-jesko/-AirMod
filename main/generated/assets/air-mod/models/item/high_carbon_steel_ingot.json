@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "air-mod:item/high_carbon_steel_ingot"
+  }
+}

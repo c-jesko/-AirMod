@@ -1,5 +1,5 @@
 {
-  "item.air-mod.flamed string": "火绒丝",
+  "item.air-mod.flamed_string": "火绒丝",
   "item.air-mod.withered_bone": "凋零骨头",
   "item.air-mod.withered_bone_powder": "凋零骨粉",
   "item.air-mod.mile_carbon_steel_ingot": "低碳钢锭",
@@ -17,6 +17,11 @@
   "item.air-mod.high_carbon_steel_sword": "高碳钢剑",
   "item.air-mod.mile_carbon_steel_axe": "低碳钢斧",
   "item.air-mod.high_carbon_steel_axe": "高碳钢斧",
+
+
+  "entity.air-mod.watcher": "Watcher",
+  "entity.air-mod.visitor": "Visitor",
+  "entity.air-mod.stranger": "Stranger",
 
 
   "block.air-mod.mile_carbon_steel_block": "低碳钢块",

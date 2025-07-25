@@ -17,6 +17,14 @@
   "item.air-mod.mile_carbon_steel_axe": "mild carbon steel axe",
   "item.air-mod.high_carbon_steel_axe": "high carbon steel axe",
 
+
+  "entity.air-mod.watcher": "Watcher",
+  "entity.air-mod.visitor": "Visitor",
+  "entity.air-mod.stranger": "Stranger",
+
+
   "block.air-mod.high_carbon_steel_block": "High Carbon Steel Block",
   "block.air-mod.mile_carbon_steel_block": "Mild carbon steel Block"
+
+
 }

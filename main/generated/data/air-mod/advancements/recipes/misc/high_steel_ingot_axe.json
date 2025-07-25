@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_high_steel_ingot_ingot": {
+    "has_high_carbon_steel_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "air-mod:high_steel_ingot"
+              "air-mod:high_carbon_steel_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_high_steel_ingot_ingot",
+      "has_high_carbon_steel_ingot",
       "has_the_recipe"
     ]
   ],

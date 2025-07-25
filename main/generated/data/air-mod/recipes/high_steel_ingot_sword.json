@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "air-mod:high_steel_ingot"
+      "item": "air-mod:high_carbon_steel_ingot"
     },
     "A": {
       "item": "minecraft:stick"
@@ -15,7 +15,7 @@
     "A"
   ],
   "result": {
-    "item": "air-mod:high_steel_ingot_sword"
+    "item": "air-mod:high_carbon_steel_sword"
   },
   "show_notification": true
 }

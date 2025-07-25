@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "air-mod:mile_steel_ingot"
+      "item": "air-mod:mile_carbon_steel_ingot"
     },
     "A": {
       "item": "minecraft:stick"
@@ -15,7 +15,7 @@
     "A"
   ],
   "result": {
-    "item": "air-mod:mile_steel_ingot_shove"
+    "item": "air-mod:mile_carbon_steel_shove"
   },
   "show_notification": true
 }

@@ -16,7 +16,7 @@ public class ModItems {
     public static final Item WITHERED_BONE = registerItems("withered_bone",new Item(new FabricItemSettings()));
     public static final Item WITHERED_BONE_POWDER = registerItems("withered_bone_powder",new Item(new FabricItemSettings()));
     public static final Item MILE_CARBON_STEEL_INGOT = registerItems("mile_carbon_steel_ingot",new Item(new FabricItemSettings()));
-    public static final Item HIGH_CRABON_STEEL_INGOT = registerItems("high_carbon_steel_ingot",new Item(new FabricItemSettings()));
+    public static final Item HIGH_CARBON_STEEL_INGOT = registerItems("high_carbon_steel_ingot",new Item(new FabricItemSettings()));
 
 
 

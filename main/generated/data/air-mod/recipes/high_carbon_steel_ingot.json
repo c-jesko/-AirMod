@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "air-mod:high_carbon_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "air-mod:high_carbon_steel_ingot"
+  }
+}

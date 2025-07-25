@@ -7,8 +7,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
 
-    HIGH_STEEL_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.TINDER_WIRE)),
-    MILE_STEEL_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.TINDER_WIRE));
+    HIGH_CARBON_STEEL_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.HIGH_CARBON_STEEL_INGOT)),
+    MILE_CARBON_STEEL_INGOT(5,600,4.5f,3.5f,25,()->Ingredient.ofItems(ModItems.MILE_CARBON_STEEL_INGOT));
 
 
 
